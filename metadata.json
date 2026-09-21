@@ -1,0 +1,7 @@
+{
+  "name": "Recette Facile Pâte à Crêpes",
+  "description": "Recette facile de pâte à crêpes maison : rapide, moelleuse et sans grumeaux. Ingrédients précis, astuces de chef, temps de repos et guide pas à pas complet.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

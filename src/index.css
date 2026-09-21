@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: 'Lora', Georgia, serif;
+  }
+
+  /* Offset anchor targets for sticky reading bar / header */
+  [id] {
+    scroll-margin-top: 5.5rem;
+  }
+}
+
+@media print {
+  header, nav, .no-print, .reading-progress, .audio-player-bar, .share-buttons-sticky {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
